@@ -1,0 +1,8 @@
+<script src="./dist/a.js"></script>
+<script>
+    setTimeout(() => {
+        const script = document.createElement('script');
+        script.src = './dist/b.js';
+        document.body.appendChild(script);
+    }, 10);
+</script>
