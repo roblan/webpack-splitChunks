@@ -1,4 +1,4 @@
-(self["webpackChunkdynamic_shared_test"] = self["webpackChunkdynamic_shared_test"] || []).push([[396],{
+(self["webpackChunkdynamic_shared_test_b"] = self["webpackChunkdynamic_shared_test_b"] || []).push([[396],{
 
 /***/ 138:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {

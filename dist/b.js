@@ -1,3 +1,4 @@
+var dynamic_shared_test_b;
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({});
 /************************************************************************/
@@ -59,7 +60,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + ({"119":"b-1","396":"b-2"}[chunkId] || chunkId) + ".js";
+/******/ 			return "b_" + ({"119":"b-1","396":"b-2"}[chunkId] || chunkId) + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -83,7 +84,7 @@
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "dynamic-shared-test:";
+/******/ 		var dataWebpackPrefix = "dynamic_shared_test_b:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -240,15 +241,16 @@
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkdynamic_shared_test"] = self["webpackChunkdynamic_shared_test"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkdynamic_shared_test_b"] = self["webpackChunkdynamic_shared_test_b"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-Promise.all(/* import() | b-1 */[__webpack_require__.e(453), __webpack_require__.e(119)]).then(__webpack_require__.bind(__webpack_require__, 632));
-Promise.all(/* import() | b-2 */[__webpack_require__.e(453), __webpack_require__.e(396)]).then(__webpack_require__.bind(__webpack_require__, 138));
+Promise.all(/* import() | b-1 */[__webpack_require__.e(768), __webpack_require__.e(119)]).then(__webpack_require__.bind(__webpack_require__, 632));
+Promise.all(/* import() | b-2 */[__webpack_require__.e(768), __webpack_require__.e(396)]).then(__webpack_require__.bind(__webpack_require__, 138));
 
+dynamic_shared_test_b = __webpack_exports__;
 /******/ })()
 ;
